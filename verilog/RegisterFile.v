@@ -13,12 +13,6 @@ module RegisterFile (
 
     reg [31:0] registers [31:0];
 
-    integer i;
-    initial begin
-        for (i = 0; i < 32; i = i + 1)
-            registers[i] = 32'b0;
-    end
-
     assign reg1 = (reg1_number == 0) ? 32'b0 : registers[reg1_number];
     assign reg2 = (reg2_number == 0) ? 32'b0 : registers[reg2_number];
     assign a0 = registers[4];

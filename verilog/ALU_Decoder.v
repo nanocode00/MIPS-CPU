@@ -1,6 +1,6 @@
 module ALU_Decoder(
     input [5:0] op,
-    output [0:3] ALUop
+    output [3:0] ALUop
 );
 
     wire RTYPE, J, JAL, BEQ, BNE, ADDI, ADDIU, SLTI, ANDI, ORI, COP0, LW, SW;
@@ -19,7 +19,7 @@ module ALU_Decoder(
     assign LW    = op == 6'b100011;
     assign SW    = op == 6'b101011;
 
-    assign ALUop[0] = ORI || SLTI;
+    assign ALUop[0] = ANDI || SLTI;
     assign ALUop[1] = RTYPE || LW || SW || BNE || BEQ || ANDI || ADDIU || ADDI || J || JAL || COP0;
     assign ALUop[2] = ANDI || SLTI;
     assign ALUop[3] = RTYPE || LW || SW || BNE || BEQ || ANDI || SLTI || ADDIU || ADDI || J || JAL || COP0;

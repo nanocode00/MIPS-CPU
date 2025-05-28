@@ -1,20 +1,13 @@
 module ALU (
     input [31:0] X,
     input [31:0] Y,
-    input [0:3] S,
-    output reg [31:0] Result1,
-    output reg [31:0] Result2,
-    output reg CF,
-    output reg OF,
+    input [3:0] S,
+    output [31:0] Result1,
+    output [31:0] Result2,
+    output CF,
+    output OF,
     output Equal
 );
-
-    initial begin
-        Result1 = 32'b0;
-        Result2 = 32'b0;
-        CF = 1'b0;
-        OF = 1'b0;
-    end
 
     // Shifters
     wire [31:0] shifter_result_sll, shifter_result_sra, shifter_result_srl;

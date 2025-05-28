@@ -8,3 +8,654 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/18.1
+vAdder
+Z0 !s110 1748465430
+!i10b 1
+!s100 Wj20dc2[i3bI9=zzUzWWX3
+I4D_0K9AzOW>MdL4Ih^KMN0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/rwg09/Downloads/MIPS-CPU/modelsim
+w1748423502
+8Adder.v
+FAdder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1748465430.000000
+Z5 !s107 tb_SyscallDecoder.v|tb_Statistics.v|tb_SingleCycleCPU.v|tb_RegisterFile.v|tb_InstructionMemory.v|tb_ImmediateExtender.v|tb_DataMemory.v|tb_Control.v|tb_CP0.v|tb_ALU.v|SyscallDecoder.v|Subtractor.v|Statistics.v|SingleCycleCPU.v|Shifter.v|RegisterRead_Decoder.v|RegisterFile.v|Opcode_Decoder.v|Multiplier.v|InstructionMemory.v|ImmediateExtender.v|Funct_Decoder.v|Divider.v|DataMemory.v|Control.v|Comparator_Unsigned.v|Comparator_Signed.v|CP0.v|Adder.v|ALU_Decoder.v|ALU.v|
+Z6 !s90 -reportprogress|300|ALU.v|ALU_Decoder.v|Adder.v|CP0.v|Comparator_Signed.v|Comparator_Unsigned.v|Control.v|DataMemory.v|Divider.v|Funct_Decoder.v|ImmediateExtender.v|InstructionMemory.v|Multiplier.v|Opcode_Decoder.v|RegisterFile.v|RegisterRead_Decoder.v|Shifter.v|SingleCycleCPU.v|Statistics.v|Subtractor.v|SyscallDecoder.v|tb_ALU.v|tb_CP0.v|tb_Control.v|tb_DataMemory.v|tb_ImmediateExtender.v|tb_InstructionMemory.v|tb_RegisterFile.v|tb_SingleCycleCPU.v|tb_Statistics.v|tb_SyscallDecoder.v|
+!i113 1
+Z7 tCvgOpt 0
+n@adder
+vALU
+R0
+!i10b 1
+!s100 ?G4C[i?cOTmkdXzEEmTe]3
+IGf;L:c8k`B2J_b62bXf_12
+R1
+R2
+w1748459832
+8ALU.v
+FALU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@a@l@u
+vALU_Decoder
+R0
+!i10b 1
+!s100 @0F?JCMMcO_94mhePf`kh2
+IPIOfQ9:;X2PC_J53ORVc03
+R1
+R2
+w1748465375
+8ALU_Decoder.v
+FALU_Decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@a@l@u_@decoder
+vComparator_Signed
+R0
+!i10b 1
+!s100 8CZPWeg3nBfQaQPcDD49G0
+IM0eV4zb2ncZ3Dfa<S<FAW0
+R1
+R2
+w1748424551
+8Comparator_Signed.v
+FComparator_Signed.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@comparator_@signed
+vComparator_Unsigned
+R0
+!i10b 1
+!s100 =QWF9I;DdY`TZn1TDhmEH3
+IYSeZ4R@9E<k4jiU?>27lN1
+R1
+R2
+w1748424564
+8Comparator_Unsigned.v
+FComparator_Unsigned.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@comparator_@unsigned
+vControl
+R0
+!i10b 1
+!s100 JM^<QSYz0Hk7oVc[F>H7H3
+I>eanSM69E9MVOLOH>5O692
+R1
+R2
+w1748461926
+8Control.v
+FControl.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@control
+vCP0
+R0
+!i10b 1
+!s100 >PFZ?c9n]kIV<OMel=3kf0
+I2]ZG`g_@8NhI>W5JMDe_Z3
+R1
+R2
+w1748458307
+8CP0.v
+FCP0.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@c@p0
+vDataMemory
+R0
+!i10b 1
+!s100 Homn]VkaJD@nHLCF=8^Uc1
+I4H7HN37fi_Yznk;mFG<En0
+R1
+R2
+w1748458349
+8DataMemory.v
+FDataMemory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@data@memory
+vDivider
+R0
+!i10b 1
+!s100 `0`I]o8meH7h`KDkR_>3Q2
+IY`iOV_jG^dWVCY3lVEkJD1
+R1
+R2
+w1748424536
+8Divider.v
+FDivider.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@divider
+vFunct_Decoder
+R0
+!i10b 1
+!s100 c8KCSU>:oDLV_AzT9Za]T0
+INROV6dA@;;CZjTiKXFFmD0
+R1
+R2
+w1748459786
+8Funct_Decoder.v
+FFunct_Decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@funct_@decoder
+vImmediateExtender
+R0
+!i10b 1
+!s100 XUHAo@3k8B:oheX:7ahQP0
+I>K2M8;VnB187S^BWTUTDC1
+R1
+R2
+w1748427180
+8ImmediateExtender.v
+FImmediateExtender.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@immediate@extender
+vInstructionMemory
+R0
+!i10b 1
+!s100 :ch?9S0hAd<alIlz=zD@I0
+I8F4PXeZUb=U7DL2K1foi01
+R1
+R2
+w1748447366
+8InstructionMemory.v
+FInstructionMemory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@instruction@memory
+vMultiplier
+R0
+!i10b 1
+!s100 =lF7:B9f8be^0ilF]==F:1
+IF<m9?CIDbR;d[jE2GneCd3
+R1
+R2
+w1748424518
+8Multiplier.v
+FMultiplier.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@multiplier
+vOpcode_Decoder
+R0
+!i10b 1
+!s100 9zk<iT9YKWn@26DlibT<E3
+IFi7ZTJKEOXB<gJj^:WAQk1
+R1
+R2
+w1748425116
+8Opcode_Decoder.v
+FOpcode_Decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@opcode_@decoder
+vRegisterFile
+R0
+!i10b 1
+!s100 0iDlYGMEK64Z>gV8Jg63F2
+ICkclg:`@[adG685lC8Hj13
+R1
+R2
+w1748455408
+8RegisterFile.v
+FRegisterFile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@register@file
+vRegisterRead_Decoder
+R0
+!i10b 1
+!s100 X>TV8dOnQj5JGlP`J=b?>1
+I6Z=?Lj8n3[Je]BFBL^m<92
+R1
+R2
+w1748425608
+8RegisterRead_Decoder.v
+FRegisterRead_Decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@register@read_@decoder
+vShifter
+R0
+!i10b 1
+!s100 hSGmlUC3]MPc2afCZbng81
+IQUh@YRVf4ikT[e68DWelY3
+R1
+R2
+w1748458406
+8Shifter.v
+FShifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@shifter
+vSingleCycleCPU
+R0
+!i10b 1
+!s100 ;oWg8VT=HkDe>V]7UoXSV2
+I8[4D;]hlzX]dZS]fhL[Fm2
+R1
+R2
+w1748462614
+8SingleCycleCPU.v
+FSingleCycleCPU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@single@cycle@c@p@u
+vStatistics
+R0
+!i10b 1
+!s100 @Ko;7H8T16PYfdhm1fcn]3
+I>BhXEX:V2ki7D4GPO>PkP1
+R1
+R2
+w1748427262
+8Statistics.v
+FStatistics.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@statistics
+vSubtractor
+R0
+!i10b 1
+!s100 ^ZNFLFKPEH@8B<94?VhHE1
+IjIkV@XjM?Rk_HjNWl7TPA3
+R1
+R2
+w1748423498
+8Subtractor.v
+FSubtractor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@subtractor
+vSyscallDecoder
+R0
+!i10b 1
+!s100 fUNa7]^14o9L9k2=R`oND0
+Io;?P[N<@<n^P;W209E09Z2
+R1
+R2
+w1748456922
+8SyscallDecoder.v
+FSyscallDecoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@syscall@decoder
+vtb_ALU
+R0
+!i10b 1
+!s100 [bDC1WTQaZVae6H[OLIh30
+I9d_z^L4<gP:P6Y>f:]9W<3
+R1
+R2
+w1748443440
+8tb_ALU.v
+Ftb_ALU.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntb_@a@l@u
+vtb_Control
+R0
+!i10b 1
+!s100 z_3T5nUBHi?Q3aKa@V^G;0
+Il7a_>ZQMcPkBNoOKT?Z?>1
+R1
+R2
+w1748443903
+8tb_Control.v
+Ftb_Control.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntb_@control
+vtb_CP0
+R0
+!i10b 1
+!s100 @R:A=hTGghPciEkXk27>k3
+I5M=d?eg=lz8`g=e8M9kDg1
+R1
+R2
+w1748452165
+8tb_CP0.v
+Ftb_CP0.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntb_@c@p0
+vtb_DataMemory
+R0
+!i10b 1
+!s100 JOW`XWXEmc]zX^:]:LW<E3
+I0[QaU;OD6BIJG^3[F3SeS3
+R1
+R2
+w1748447774
+8tb_DataMemory.v
+Ftb_DataMemory.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntb_@data@memory
+vtb_ImmediateExtender
+R0
+!i10b 1
+!s100 @GMR4`gPf19kLz5<YUzTg1
+INB2USXaJ3;2?G5;F>m^hW0
+R1
+R2
+w1748448113
+8tb_ImmediateExtender.v
+Ftb_ImmediateExtender.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntb_@immediate@extender
+vtb_InstructionMemory
+R0
+!i10b 1
+!s100 mY=dW3To@mlD=_6jAK:fh3
+I4R7Tn??@Amz_6eYfGYDhJ1
+R1
+R2
+w1748447220
+8tb_InstructionMemory.v
+Ftb_InstructionMemory.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntb_@instruction@memory
+vtb_RegisterFile
+R0
+!i10b 1
+!s100 K?RUM=_5Be8ISU>m=[AMz0
+I1N787k@J?V8hWFMfR<b@72
+R1
+R2
+w1748444429
+8tb_RegisterFile.v
+Ftb_RegisterFile.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntb_@register@file
+vtb_SingleCycleCPU
+R0
+!i10b 1
+!s100 6SPgHVFcbhYUBYfgOP7n^1
+IlKdCeVlc^E<:Voz4Ym1R23
+R1
+R2
+w1748458620
+8tb_SingleCycleCPU.v
+Ftb_SingleCycleCPU.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntb_@single@cycle@c@p@u
+vtb_Statistics
+R0
+!i10b 1
+!s100 fU<K85gPAWTkka5<zo85a0
+IhITRanTFzCj7<F0`MRN:L0
+R1
+R2
+w1748448403
+8tb_Statistics.v
+Ftb_Statistics.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntb_@statistics
+vtb_SyscallDecoder
+R0
+!i10b 1
+!s100 AZzo6OVQRaFQ;>X07]K6U3
+IgLENLSjhE<e8:0bDK:lY`0
+R1
+R2
+w1748448698
+8tb_SyscallDecoder.v
+Ftb_SyscallDecoder.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+ntb_@syscall@decoder

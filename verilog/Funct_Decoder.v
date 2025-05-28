@@ -1,6 +1,6 @@
 module Funct_Decoder(
     input [5:0] Funct,
-    output [0:3] ALU,
+    output [3:0] ALU,
     output IsJR,
     output IsSyscall,
     output IsShamt

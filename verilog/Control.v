@@ -11,12 +11,12 @@ module Control(
     output Branch,
     output BneOrBeq,
     output Jump,
-    output [0:3] ALUop,
+    output [3:0] ALUop,
     output ALUSrc,
     output IsShamt,
     output IsSyscall,
-    output RegDst,
     output ZeroExtend,
+    output RegDst,
     output ReadRs,
     output ReadRt
 );
@@ -30,7 +30,7 @@ module Control(
     RegisterRead_Decoder registerread_decoder(op, Funct, ReadRs, ReadRt);
 
     // ALU Decoding
-    wire [0:3] ALUop_F, ALUop_A;
+    wire [3:0] ALUop_F, ALUop_A;
     wire jr, syscall, shamt;
 
     Funct_Decoder funct_decoder(Funct, ALUop_F, jr, syscall, shamt);

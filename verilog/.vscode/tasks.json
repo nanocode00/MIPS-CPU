@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Verilog (current file)",
+        "type": "shell",
+        "command": "iverilog -o ${fileBasenameNoExtension}.out ${file} && vvp ${fileBasenameNoExtension}.out",
+        "group": "build",
+        "problemMatcher": []
+      },
+      {
+        "label": "Run Verilog + GTKWave (current file)",
+        "type": "shell",
+        "command": "iverilog -o ${fileBasenameNoExtension}.out ${file} && vvp ${fileBasenameNoExtension}.out && gtkwave ${fileBasenameNoExtension}.vcd",
+        "group": "build",
+        "problemMatcher": []
+      }
+    ]
+  }
+  
