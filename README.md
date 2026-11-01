@@ -1,4 +1,8 @@
-> **개인 포트폴리오 안내:** 이 저장소는 원본 Logisim MIPS CPU 프로젝트의 Fork입니다. 제 개인 작업은 `modelsim/`에 있는 **Verilog 단일 사이클 CPU 재구현 및 테스트**이며, CP0 예외/ERET 복귀는 미완성입니다. [개인 구현·기여·검증 한계 자세히 보기](PORTFOLIO.md)\n\n---\n\n# MIPS-CPU
+> **개인 포트폴리오 안내:** 이 저장소는 원본 Logisim MIPS CPU 프로젝트의 Fork입니다. 제 개인 작업은 `modelsim/`에 있는 **Verilog 단일 사이클 CPU 재구현 및 테스트**이며, CP0 예외/ERET 복귀는 미완성입니다. [개인 구현·기여·검증 한계 자세히 보기](PORTFOLIO.md)
+
+---
+
+# MIPS-CPU
 
 A Simulative 32-bit CPU Running on MIPS Instruction System Based on [Logisim](http://www.cburch.com/logisim/) (Newer version [Logisim Evolution](https://github.com/reds-heig/logisim-evolution) is not supported). Basic understanding of digital design and MIPS pipelined CPU is strongly recommended ([1] is a great textbook for learning). For more details about implementations please refer to the [wiki page](https://github.com/yuxincs/MIPS-CPU/wiki).
 
